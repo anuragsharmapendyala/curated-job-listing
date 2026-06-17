@@ -1,3 +1,3 @@
-# This is a small frontend mentor challenge
+# Easy Frontend Mentor Challenge of Curated Job Listing.
 
-Here is a small challenge created using the frontend mentor challenge of creating a job listing components. Most of the app is responsive, feel free to go through code and suggest me if any updates need to be done 😄
+This frontend mentor challenge is of creating a curated job listing based on given Mock API. Here is my approach to the problem. Eventhough most of the app is responsive it still needs some tweaks for the cards components in the smallers screen, feel free to download and going through the code. Please provide me with your suggestions and help me improve my approach to solving a problem 😄

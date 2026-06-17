@@ -1,0 +1,56 @@
+.Card {
+	width: 100%;
+	min-height: 8rem;
+	box-shadow: 0 0 0.75rem var(--clr-gray-400);
+	border-radius: 0.375rem;
+	padding: 0.375rem 2rem;
+	transition: 300ms all ease-in-out;
+	border-left: 0.375rem solid transparent;
+	display: flex;
+	align-items: center;
+	line-height: 1.5;
+	gap: 1rem;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+
+.Card:hover {
+	box-shadow: 0 0 1rem var(--clr-gray-400);
+	border-left: 0.375rem solid var(--clr-green-400);
+}
+
+.Card_CompanyInfo_name {
+	font-weight: 700;
+	color: var(--clr-green-400);
+}
+
+.Card_skills {
+	margin-left: auto;
+	display: flex;
+	gap: 1rem;
+}
+
+.Card_position_info {
+	color: var(--clr-gray-400);
+}
+
+.Card_position_info span:nth-child(2)::before,
+.Card_position_info span:nth-child(3)::before {
+	content: "•";
+	padding-inline: 0.625rem;
+}
+
+.Card_header_wrapper {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.Card_CompanyInfo_position {
+	transition: 300ms ease-in-out;
+}
+.Card_CompanyInfo_position:hover {
+	color: var(--clr-green-400);
+}

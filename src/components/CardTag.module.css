@@ -1,0 +1,15 @@
+.CardTag {
+	text-transform: uppercase;
+	padding: 0.25rem 0.65rem;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 9999px;
+}
+
+.CardTag_New {
+	background-color: var(--clr-green-400);
+}
+
+.CardTag_Featured {
+	background-color: #000;
+}

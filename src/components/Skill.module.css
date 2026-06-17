@@ -1,0 +1,14 @@
+.skill {
+	color: var(--clr-green-400);
+	display: inline-block;
+	padding: 0.4rem 0.6rem;
+	font-weight: 700;
+	background-color: hsla(180, 29%, 50%, 10%);
+	border-radius: 0.1rem;
+	transition: 300ms all ease-in-out;
+}
+
+.skill:hover {
+	color: #fff;
+	background-color: var(--clr-green-400);
+}
